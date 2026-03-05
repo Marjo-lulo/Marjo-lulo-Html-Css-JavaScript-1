@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA_Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial" />
+    <title>Marjo Document</title>
+  </head>
+  <body>
+    <button
+      onclick="ma()"
+      style="
+        font-size: 25px;
+        background-color: grey;
+        color: royalblue;
+        border-radius: 25px;
+      "
+    >
+      🌪️
+    </button>
+    <p id="greeting">Hello</p>
+    <script>
+      function ma() {
+        document.getElementById("greeting").innerHTML = "Goodbye!";
+      }
+    </script>
+  </body>
+</html>
